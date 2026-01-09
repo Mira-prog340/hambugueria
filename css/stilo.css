@@ -18,38 +18,13 @@ body{
 }
 .todacor{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    margin-top: -20px;
 }
-.vermelho{
-    width: 200px;
-    height: 200px;
-    background-image: linear-gradient( to bottom, rgb(155, 5, 5), black);
-    border-bottom-right-radius: 100%;
-    padding: 10px 15px;
-    overflow: hidden;
-   border: 2px solid white;
-   
-}
-.vermelho img{
-    width: 180px;
-   position: relative;
-   right: 20px;
-}
-.amarelo{
-    background-image: linear-gradient( to bottom, rgb(155, 5, 5), black);
-     width: 200px;
-    height: 200px;
-     border-bottom-left-radius: 100%;
-      border: 2px solid white;
-      overflow: hidden;
-}
-.amarelo img{
-    width: 180px;
-   position: relative;
-   left: 20px;
-   top: 10px;
 
-   }
+
+
+
 .texto{
     margin-top: 100px;
     color: white;
@@ -92,6 +67,7 @@ body{
   
     
 }
+
 .vermelho{
     width: 100px;
     height: 100px;
@@ -113,26 +89,28 @@ body{
 }
 .texto{
     position: relative;
-  
+  top: -27px;
     width: 250px;
 }
 .texto h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.8em;
+    font-family: cursive;
+    font-size: 1.3em;
     text-transform: uppercase;
-    
+    background-color: rgb(6, 135, 60);
+    padding: 5px 10px;
+    letter-spacing: 3px;
 }
 .texto p{
     font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    
+    font-family: cursive;
+    margin-top: 10px;
 }
 .amarelo img{
     width: 60px;
    position: relative;
   left: -4px;
    top: -5px;
-
+   
    }
    .vermelho img{
     width: 60px;
@@ -145,6 +123,8 @@ body{
     position: relative;
     top: -5px;
     margin-bottom: -35px;
+   
+
 }
 .entre button{
     padding: 10px 20px;
@@ -154,7 +134,7 @@ body{
     border-radius: 10px;
     border: none;
     transition: .5s ease;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: cursive;
     border: 2px solid white;
     font-weight: bold;
 }
