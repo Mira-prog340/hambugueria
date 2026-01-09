@@ -9,7 +9,7 @@ body{
 }
 .tudo{
    width: 1000px;
-  background-image: linear-gradient(red, rgb(195, 246, 10));
+  background-image: linear-gradient(rgb(98, 3, 3), rgb(67, 84, 3));
     margin: auto;
   
     height: 100vh;
@@ -51,7 +51,7 @@ body{
 
    }
 .texto{
-    margin-top: 20px;
+    margin-top: 100px;
     color: white;
     text-align: center;
 }
@@ -64,6 +64,7 @@ body{
 }
 .texto img{
     width: 400px;
+    margin-top: 30px;
 }
 .entre{
     position: relative;
@@ -72,7 +73,7 @@ body{
 .entre button{
     padding: 10px 30px;
     font-size: 1.5em;
-    background-color: rgba(34, 237, 82, 0.825);
+    background-color: rgb(22, 190, 67);
     color: white;
     border-radius: 10px;
     border: none;
@@ -80,7 +81,7 @@ body{
     text-transform: uppercase;
 }
 .entre button:hover{
- background-color: rgba(11, 91, 30, 0.348);
+ background-color: rgb(22, 190, 67);
     cursor: pointer;
     transform: scale(1.1);
 }
@@ -112,7 +113,7 @@ body{
 }
 .texto{
     position: relative;
-    top: 60px;
+  
     width: 250px;
 }
 .texto h1{
@@ -142,7 +143,8 @@ body{
 .texto img{
     width: 250px;
     position: relative;
-    top: 50px;
+    top: -5px;
+    margin-bottom: -35px;
 }
 .entre button{
     padding: 10px 20px;
