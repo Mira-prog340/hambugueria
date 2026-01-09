@@ -4,7 +4,9 @@
     box-sizing: border-box;
     font-family: cursive;
 }
-
+body{
+    background-color: white;
+}
 .tudo{
    width: 1000px;
   background-image: linear-gradient(red, rgb(195, 246, 10));
