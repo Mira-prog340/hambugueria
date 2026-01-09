@@ -9,7 +9,7 @@ body{
 }
 .tudo{
    width: 1000px;
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url(/img/3.jpg);
+  background: url(/img/3.jpg);
     margin: auto;
   
     height: 100vh;
