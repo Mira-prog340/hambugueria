@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    background-color: black;
+}
+.tudo{
+   width: 1000px;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url(/img/3.jpg);
+    margin: auto;
+  
+    height: 100vh;
+    
+    
+}
+.todacor{
+    display: flex;
+    justify-content: space-between;
+}
+.vermelho{
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient( to bottom, rgb(155, 5, 5), black);
+    border-bottom-right-radius: 100%;
+    padding: 10px 15px;
+    overflow: hidden;
+   border: 2px solid white;
+   
+}
+.vermelho img{
+    width: 180px;
+   position: relative;
+   right: 20px;
+}
+.amarelo{
+    background-image: linear-gradient( to bottom, rgb(155, 5, 5), black);
+     width: 200px;
+    height: 200px;
+     border-bottom-left-radius: 100%;
+      border: 2px solid white;
+      overflow: hidden;
+}
+.amarelo img{
+    width: 180px;
+   position: relative;
+   left: 20px;
+   top: 10px;
+
+   }
+.texto{
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+.texto h1{
+    font-size: 2em;
+    text-transform: uppercase;
+}
+.texto p{
+    font-size: 1.7em;
+}
+.texto img{
+    width: 400px;
+}
+.entre{
+    position: relative;
+    top: 80px;
+}
+.entre button{
+    padding: 10px 30px;
+    font-size: 1.5em;
+    background-color: rgba(34, 237, 82, 0.825);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    transition: .5s ease;
+    text-transform: uppercase;
+}
+.entre button:hover{
+ background-color: rgba(11, 91, 30, 0.348);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+@media screen and (max-width: 900px){
+    .tudo{
+   width: 391px;
+    background-color: blue;
+  
+    
+}
+.vermelho{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-bottom-right-radius: 100%;
+    padding: 10px 15px;
+   
+   border: 2px solid white;
+   
+}
+
+.amarelo{
+    background-color: gold;
+     width: 100px;
+    height: 100px;
+     border-bottom-left-radius: 100%;
+      border: 2px solid white;
+      padding: 10px 15px;
+}
+.texto{
+    position: relative;
+    top: 60px;
+    width: 250px;
+}
+.texto h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    
+}
+.texto p{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.amarelo img{
+    width: 60px;
+   position: relative;
+  left: -4px;
+   top: -5px;
+
+   }
+   .vermelho img{
+    width: 60px;
+   position: relative;
+   right: 15px;
+   top: -4px;
+}
+.texto img{
+    width: 250px;
+    position: relative;
+    top: 50px;
+}
+.entre button{
+    padding: 10px 20px;
+    font-size: 1.3em;
+    background-color: rgba(34, 237, 81, 0.433);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    transition: .5s ease;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid white;
+    font-weight: bold;
+}
+}
